@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.idea/workspace.xml
+.venv/
+.history/
+.pyre/
+build
+*egg-info
+dist/*
+.DS_Store
+!.gitkeep
+.env
+.databricks
