@@ -104,6 +104,10 @@ class Filesystem:
         return [item.name for item in _notebookutils.fs.ls(path)]
 
     @classmethod
+    def get_file_info(cls, path: str):
+        return _notebookutils.fs.ls(path)[0]
+
+    @classmethod
     def mkdirs(cls, path: str):
         return _notebookutils.fs.mkdirs(path)
 
